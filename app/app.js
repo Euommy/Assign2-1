@@ -17,7 +17,7 @@ import { MongoURI, Secret } from '../config/config.js';
 
 // Import Routes
 import indexRouter from './routes/index.route.server.js';
-import movieRouter from './routes/movies.route.server.js';
+import movieRouter from './routes/contactlist.route.server.js';
 // Instantiate Express Application
 const app = express();
 

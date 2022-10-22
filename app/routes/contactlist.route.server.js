@@ -5,7 +5,7 @@ import {  DisplayMoviesList,
     ProcessMoviesAddPage, 
     ProcessMoviesEditPage, 
     DisplayMoviesEditPage, 
-    ProcessMoviesDelete } from "../controllers/movies.controller.server.js";
+    ProcessMoviesDelete } from "../controllers/contactlist.controller.server.js";
 
 const router = Router();
 

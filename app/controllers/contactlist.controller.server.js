@@ -1,4 +1,4 @@
-import movieModel from '../models/movies.js';
+import movieModel from '../models/contactlist.js';
 
 export function DisplayMoviesList(req, res, next){
     movieModel.find(function(err, moviesCollection) {
